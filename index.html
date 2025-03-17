@@ -29,13 +29,14 @@
             width: 100vw;
             height: 100vh;
             object-fit: cover;
+            pointer-events: none;
         }
     </style>
 </head>
 <body>
     <div id="click-text">Click Me</div>
     <div id="video-container">
-        <video id="video" src="roberta.mp4" autoplay></video>
+        <video id="video" src="roberta.mp4" autoplay playsinline></video>
     </div>
     
     <script>
